@@ -1,0 +1,12 @@
+{
+  "name": "crud-rest-api-with-nodejs-and-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Salem Nabeel <isalemnabeelsalem@gmail.com>",
+  "license": "MIT"
+}
