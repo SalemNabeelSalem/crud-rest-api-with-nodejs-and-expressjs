@@ -1,7 +1,7 @@
 {
   "name": "crud-rest-api-with-nodejs-and-express",
   "version": "1.0.0",
-  "description": "",
+  "description": "crud-rest-api-with-nodejs-and-express",
   "main": "index.js",
   "type": "module",
   "scripts": {

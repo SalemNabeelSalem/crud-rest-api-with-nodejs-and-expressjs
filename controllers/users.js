@@ -28,7 +28,7 @@ export const updateUser = (req, res) => {
   const { name, age, address } = req.body;
   const user = usersData.find((user) => user.id == id);
   if (!user) {
-    res.status(404).send("User not found.");
+    res.status(404).send("user is not found.");
   } else {
     if (name) user.name = name;
     if (age) user.age = age;
@@ -41,7 +41,7 @@ export const deleteUser = (req, res) => {
   const id = req.params.id;
   const user = usersData.find((user) => user.id == id);
   if (!user) {
-    res.status(404).send("User not found.");
+    res.status(404).send("user is not found.");
   } else {
     const removedIndex = usersData.indexOf(user);
     usersData.splice(removedIndex, 1);
