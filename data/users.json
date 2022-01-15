@@ -1,7 +1,0 @@
-[
-  { "id": 1, "name": "John", "age": 20, "address": "New York" },
-  { "id": 2, "name": "Peter", "age": 30, "address": "Paris" },
-  { "id": 3, "name": "Mary", "age": 25, "address": "Kyiv" },
-  { "id": 4, "name": "Mike", "age": 35, "address": "London" },
-  { "id": 5, "name": "John", "age": 20, "address": "New York" }
-]

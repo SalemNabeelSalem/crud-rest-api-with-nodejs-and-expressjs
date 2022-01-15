@@ -10,7 +10,7 @@ export const getUser = (req, res) => {
   const { id } = req.params;
   const user = usersData.find((user) => user.id == id);
   if (!user) {
-    res.status(404).send("User not found.");
+    res.status(404).send("user is not found.");
   } else {
     res.send(user);
   }
