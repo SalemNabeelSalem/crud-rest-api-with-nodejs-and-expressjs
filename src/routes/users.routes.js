@@ -1,10 +1,12 @@
 import express from "express";
 
-import { getUsers } from "../controllers/users.js";
-import { getUser } from "../controllers/users.js";
-import { createUser } from "../controllers/users.js";
-import { updateUser } from "../controllers/users.js";
-import { deleteUser } from "../controllers/users.js";
+import {
+  getUsers,
+  getUser,
+  createUser,
+  updateUser,
+  deleteUser,
+} from "../controllers/users.controller.js";
 
 const router = express.Router();
 
